@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
+    font-size: 15px;
+    border-top: 15px solid #f19db5;
+}
+
+.w-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+}
+.logo img{
+    display: inline-block;
+    width: 7%;
+    height: 7%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #f19db5;
+    padding: 10px 20px;
+    position: fixed;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.controller{
+    text-align: left;
+}
+
+.container-video h1{
+    text-align: center;
+}
+
+.container-video h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-video h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.explain{
+    margin-bottom: 20px;
+}
+
+.video-block{
+    display: flex;
+    justify-content: space-between;
+}
+.video {
+    flex: 1;
+    margin-right: 20px;
+}
+.video:last-child {
+    margin-right: 0;
+}
+.video iframe {
+    width: 100%;
+    height: 214px;
+}
+
+.big-title{
+    text-align: center;
+}
+
+.sakura-music-video h2{
+    display: inline-block;
+    background-color: #f19db5;
+    color: white;
+    padding: 10px 20px;
+}
+.sakura-other-video h2{
+    display: inline-block;
+    background-color: #f19db5;
+    color: white;
+    padding: 10px 20px;
+}
+.keyaki-music-video h2{
+    display: inline-block;
+    background-color: #5eb954;
+    color: white;
+    padding: 10px 20px;
+}
+
+.producer{
+    text-align: right;
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5eb954;
+    color: white;
+    font-size: 12px;
+    padding: 4px 7px;
+}
