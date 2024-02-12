@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
+    font-size: 15px;
+    border-top: 15px solid #f19db5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    text-align: center;
+}
+.logo img{
+    display: inline-block;
+    width: 7%;
+    height: 7%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.w-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    width: 240px;
+    text-align: center;
+    list-style: none;
+    border-right: 1px solid #ddd;
+}
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+.header ul li a{
+    display: inline-block;
+}
+.header-img{
+    text-align: center;
+    margin-top: 40px;
+}
+.header-img img{
+    display: inline-block;
+}
+
+.container-favorite-member h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.container-favorite-member .favorite-member-block{
+    display: flex;
+    justify-content: space-between;
+}
+.container-favorite-member .favorite-member-block img{
+    margin-bottom: 20px;
+    width: 380px;
+    height: 480px;
+}
+.container-favorite-member .favorite-member-block .title{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.container-favorite-member .favorite-member-block .explain{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container-favorite-member .favorite-member-block a{
+    background-color: #f19db5;
+    color: white;
+    padding: 10px 20px;
+}
+
+.producer{
+    text-align: right;
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f19db5;
+    color: white;
+    font-size: 12px;
+    padding: 4px 7px;
+}
