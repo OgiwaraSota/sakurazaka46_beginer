@@ -159,9 +159,9 @@
         display: inline-block;
     }
     .favorite-member-block .title{
-        font-weight: bold;
         font-size: 30px;
         text-align: center;
+        margin-bottom: 20px;
     }
     .favorite-member-block .explain{
         margin-bottom: 20px;
@@ -172,7 +172,7 @@
         color: white;
         padding: 10px 20px;
         margin-bottom: 25px;
-        text-align: right;
+        text-align: right !important;
         margin-right: 5px;
     }
     
