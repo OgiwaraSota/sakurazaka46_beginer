@@ -26,19 +26,19 @@
         width: 1200px;
         margin: 0 auto;
     }
-    .header ul{
+    .header .menu-list{
         display: flex;
     }
-    .header ul li{
+    .header .menu-list p{
         width: 240px;
         text-align: center;
         list-style: none;
         border-right: 1px solid #ddd;
     }
-    .header ul li:first-child{
+    .header .menu-list p:first-child{
         border-left: 1px solid #ddd;
     }
-    .header ul li a{
+    .header .menu-list a{
         display: inline-block;
     }
     .header-img{
@@ -121,20 +121,13 @@
         margin: 0 auto;
     }
 
-    .header ul {
+    .header .menu-list{
         text-align: center;
-        list-style: none;
-        padding: 0;
-    }
-    
-    .header ul li {
-        display: inline;
         font-size: 20px;
         padding: 5px;
         text-decoration: underline;
     }
     
-   
     .header-img{
         text-align: center;
         margin-top: 30px;
