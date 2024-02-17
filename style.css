@@ -125,7 +125,8 @@
         text-align: center;
         list-style: none;
         font-size: 20px;
-        padding: 2px;
+        padding: 5px;
+        text-decoration: underline;
     }
    
     .header-img{
@@ -160,7 +161,7 @@
         margin-bottom: 20px;
         text-align: center;
     }
-    .favorite-member-block a{
+    .favorite-member-block p{
         display: block;
         background-color: #f19db5;
         color: white;
@@ -173,7 +174,7 @@
     .producer{
         text-align: right;
         margin-top: 20px;
-        padding-right: 2px;
+        padding-right: 5px;
         font-size: 12px;
     }
     .copy{
