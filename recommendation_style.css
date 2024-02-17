@@ -133,18 +133,6 @@
         margin-bottom: 30px;
     }
 
-    a{
-        text-decoration: none;
-        color: white;
-        background-color: #f19db5;
-        padding: 10px 20px;
-        position: fixed;
-        margin-top: 30px;
-        margin-right: 5px;
-        font-size: 15px;
-        border-radius: 5px;
-    }
-
     .container-video h1{
         text-align: center;
     }
@@ -157,20 +145,23 @@
     .container-video h3{
         text-align: center;
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-size: 20px;
     }
 
     .explain{
-        margin: 40px;
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .video {
         text-align: center;
     }
     .video iframe {
-        width: 90%;
+        width: 351%;
+        height: 197px;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .big-title{
