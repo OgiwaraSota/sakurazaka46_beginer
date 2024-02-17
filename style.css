@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:481px){
+@media screen and (min-width:391px){
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 15px;
@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:390px){
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 15px;
@@ -117,7 +117,7 @@
     }
     
     .w-inner{
-        width: 480px;
+        width: 390px;
         margin: 0 auto;
     }
     .header ul{
