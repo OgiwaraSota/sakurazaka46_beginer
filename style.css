@@ -121,13 +121,18 @@
         margin: 0 auto;
     }
 
-    .header ul li{
-        text-align: center;
+    .header ul {
         list-style: none;
+        padding: 0;
+    }
+    
+    .header ul li {
+        display: inline;
         font-size: 20px;
         padding: 5px;
         text-decoration: underline;
     }
+    
    
     .header-img{
         text-align: center;
@@ -162,7 +167,6 @@
         text-align: center;
     }
     .favorite-member-block p{
-        display: block;
         background-color: #f19db5;
         color: white;
         padding: 10px 20px;
