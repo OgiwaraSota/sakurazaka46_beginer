@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (max-width: 391px){
+@media screen and (max-width: 390px){
     
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
@@ -119,7 +119,7 @@
     }
 
     .w-inner{
-        width: 391px;
+        width: 390px;
         margin: 0 auto;
     }
 
@@ -128,9 +128,9 @@
     }
     .logo img{
         display: inline-block;
-        width: 20%;
+        width: 15%;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     a{
@@ -140,12 +140,9 @@
         padding: 10px 20px;
         position: fixed;
         margin-top: 30px;
-        font-size: 20px;
+        margin-right: 5px;
+        font-size: 15px;
         border-radius: 5px;
-    }
-
-    .controller{
-        text-align: left;
     }
 
     .container-video h1{
@@ -153,7 +150,7 @@
     }
 
     .container-video h2{
-        margin-top: 40px;
+        margin-top: 30px;
         text-align: center;
     }
 
@@ -161,17 +158,19 @@
         text-align: center;
         margin-top: 20px;
         margin-bottom: 10px;
+        font-size: 20px;
     }
 
     .explain{
-        margin-bottom: 20px;
+        margin: 40px;
     }
 
     .video {
         text-align: center;
     }
     .video iframe {
-        width: 80%;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     .big-title{
@@ -199,7 +198,7 @@
 
     .producer{
         text-align: right;
-        margin-top: 30px;
+        margin-top: 12px;
     }
     .copy{
         text-align: center;
