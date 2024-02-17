@@ -1,18 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 481px){
-    
+@media screen and (min-width:481px){
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 15px;
         border-top: 15px solid #f19db5;
     }
 
-    .w-inner{
-        width: 1200px;
-        margin: 0 auto;
+    a{
+        text-decoration: none;
+        color: black;
     }
-
+    
     .logo{
         text-align: center;
     }
@@ -23,80 +22,65 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
-    a{
-        text-decoration: none;
-        color: white;
-        background-color: #f19db5;
-        padding: 10px 20px;
-        position: fixed;
-        margin-top: 30px;
-        font-size: 20px;
-        border-radius: 5px;
+    
+    .w-inner{
+        width: 1200px;
+        margin: 0 auto;
     }
-
-    .controller{
-        text-align: left;
+    .header ul{
+        display: flex;
     }
-
-    .container-video h1{
+    .header ul li{
+        width: 240px;
         text-align: center;
+        list-style: none;
+        border-right: 1px solid #ddd;
     }
-
-    .container-video h2{
-        margin-top: 50px;
+    .header ul li:first-child{
+        border-left: 1px solid #ddd;
+    }
+    .header ul li a{
+        display: inline-block;
+    }
+    .header-img{
         text-align: center;
+        margin-top: 40px;
     }
-
-    .container-video h3{
+    .header-img img{
+        display: inline-block;
+    }
+    
+    .container-favorite-member h1{
         text-align: center;
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-
-    .explain{
+        font-weight: bold;
+        font-size: 24px;
         margin-bottom: 20px;
+        margin-top: 40px;
     }
-
-    .video-block{
+    .container-favorite-member .favorite-member-block{
         display: flex;
         justify-content: space-between;
     }
-    .video {
-        flex: 1;
-        margin-right: 20px;
+    .container-favorite-member .favorite-member-block img{
+        margin-bottom: 20px;
+        width: 380px;
+        height: 480px;
     }
-    .video:last-child {
-        margin-right: 0;
-    }
-    .video iframe {
-        width: 100%;
-        height: 214px;
-    }
-
-    .big-title{
+    .container-favorite-member .favorite-member-block .title{
+        font-weight: bold;
+        font-size: 18px;
         text-align: center;
     }
-
-    .sakura-music-video h2{
-        display: inline-block;
+    .container-favorite-member .favorite-member-block .explain{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container-favorite-member .favorite-member-block a{
         background-color: #f19db5;
         color: white;
         padding: 10px 20px;
     }
-    .sakura-other-video h2{
-        display: inline-block;
-        background-color: #f19db5;
-        color: white;
-        padding: 10px 20px;
-    }
-    .keyaki-music-video h2{
-        display: inline-block;
-        background-color: #5eb954;
-        color: white;
-        padding: 10px 20px;
-    }
-
+    
     .producer{
         text-align: right;
         margin-top: 30px;
@@ -104,26 +88,25 @@
     .copy{
         text-align: center;
         margin-top: 20px;
-        background-color: #5eb954;
+        background-color: #f19db5;
         color: white;
         font-size: 12px;
         padding: 4px 7px;
     }
 }
 
-@media screen and(max-width: 480px){
-    
+@media screen and (max-width:481px){
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 10px;
         border-top: 10px solid #f19db5;
     }
 
-    .w-inner{
-        width: 480px;
-        margin: 0 auto;
+    a{
+        text-decoration: none;
+        color: black;
     }
-
+    
     .logo{
         text-align: center;
     }
@@ -134,76 +117,64 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
-    a{
-        text-decoration: none;
-        color: white;
-        background-color: #f19db5;
-        padding: 7px 14px;
-        position: fixed;
-        margin-top: 20px;
-        font-size: 13px;
-        border-radius: 3px;
+    
+    .w-inner{
+        width: 480px;
+        margin: 0 auto;
     }
-
-    .controller{
-        text-align: left;
+    .header ul{
+        display: flex;
     }
-
-    .container-video h1{
+    .header ul li{
+        width: 96px;
         text-align: center;
+        list-style: none;
+        border-right: 1px solid #ddd;
     }
-
-    .container-video h2{
-        margin-top: 33px;
-        text-align: center;
+    .header ul li:first-child{
+        border-left: 1px solid #ddd;
     }
-
-    .container-video h3{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 7px;
-    }
-
-    .explain{
-        margin-bottom: 13px;
-    }
-
-    .video {
-        flex: 1;
-        margin-right: 20px;
-    }
-    .video:last-child {
-        margin-right: 0;
-    }
-    .video iframe {
-        width: 100%;
-        height: 143px;
-    }
-
-    .big-title{
-        text-align: center;
-    }
-
-    .sakura-music-video h2{
+    .header ul li a{
         display: inline-block;
-        background-color: #f19db5;
-        color: white;
-        padding: 7px 17px;
     }
-    .sakura-other-video h2{
+    .header-img{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .header-img img{
+        width: 440px;
+        height: 293px;
         display: inline-block;
+    }
+    
+    .container-favorite-member h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    
+    .container-favorite-member .favorite-member-block img{
+        margin-bottom: 15px;
+        width: 440px;
+        height: 530px;
+    }
+    .container-favorite-member .favorite-member-block .title{
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+    .container-favorite-member .favorite-member-block .explain{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .container-favorite-member .favorite-member-block a{
         background-color: #f19db5;
         color: white;
         padding: 7px 14px;
     }
-    .keyaki-music-video h2{
-        display: inline-block;
-        background-color: #5eb954;
-        color: white;
-        padding: 7px 14px;
-    }
-
+    
     .producer{
         text-align: right;
         margin-top: 20px;
