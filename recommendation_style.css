@@ -114,8 +114,8 @@
     
     body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
-        font-size: 10px;
-        border-top: 10px solid #f19db5;
+        font-size: 15px;
+        border-top: 15px solid #f19db5;
     }
 
     .w-inner{
@@ -128,7 +128,7 @@
     }
     .logo img{
         display: inline-block;
-        width: 5%;
+        width: 20%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -137,11 +137,11 @@
         text-decoration: none;
         color: white;
         background-color: #f19db5;
-        padding: 7px 14px;
+        padding: 10px 20px;
         position: fixed;
-        margin-top: 20px;
-        font-size: 13px;
-        border-radius: 3px;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 5px;
     }
 
     .controller{
@@ -153,30 +153,25 @@
     }
 
     .container-video h2{
-        margin-top: 33px;
+        margin-top: 40px;
         text-align: center;
     }
 
     .container-video h3{
         text-align: center;
         margin-top: 20px;
-        margin-bottom: 7px;
+        margin-bottom: 10px;
     }
 
     .explain{
-        margin-bottom: 13px;
+        margin-bottom: 20px;
     }
 
     .video {
-        flex: 1;
-        margin-right: 20px;
-    }
-    .video:last-child {
-        margin-right: 0;
+        text-align: center;
     }
     .video iframe {
-        width: 100%;
-        height: 143px;
+        width: 80%;
     }
 
     .big-title{
@@ -187,31 +182,31 @@
         display: inline-block;
         background-color: #f19db5;
         color: white;
-        padding: 7px 17px;
+        padding: 10px 20px;
     }
     .sakura-other-video h2{
         display: inline-block;
         background-color: #f19db5;
         color: white;
-        padding: 7px 14px;
+        padding: 10px 20px;
     }
     .keyaki-music-video h2{
         display: inline-block;
         background-color: #5eb954;
         color: white;
-        padding: 7px 14px;
+        padding: 10px 20px;
     }
 
     .producer{
         text-align: right;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .copy{
         text-align: center;
-        margin-top: 15px;
-        background-color: #f19db5;
+        margin-top: 20px;
+        background-color: #5eb954;
         color: white;
-        font-size: 8px;
-        padding: 3px 6px;
+        font-size: 12px;
+        padding: 4px 7px;
     }
 }
