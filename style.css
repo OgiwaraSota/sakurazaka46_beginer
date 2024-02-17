@@ -160,13 +160,15 @@
         margin-bottom: 20px;
         text-align: center;
     }
-    .favorite-member-block p{
-        background-color: #f19db5;
-        color: white;
-        padding: 10px 20px;
+    .favorite-member-block .blog{
         margin-bottom: 25px;
         text-align: right;
         margin-right: 5px;
+    }
+    .favorite-member-block a{
+        background-color: #f19db5;
+        color: white;
+        padding: 10px 20px;
     }
     
     .producer{
