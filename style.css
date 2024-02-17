@@ -95,13 +95,13 @@
 }
 
 @media screen and (max-width:390px){
-    body{
+    .body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 15px;
         border-top: 15px solid #f19db5;
     }
 
-    a{
+    .a{
         text-decoration: none;
         color: black;
     }
@@ -120,21 +120,7 @@
         width: 390px;
         margin: 0 auto;
     }
-    .header ul{
-        display: flex;
-    }
-    .header ul li{
-        width: 78px;
-        text-align: center;
-        list-style: none;
-        border-right: 1px solid #ddd;
-    }
-    .header ul li:first-child{
-        border-left: 1px solid #ddd;
-    }
-    .header ul li a{
-        display: inline-block;
-    }
+   
     .header-img{
         text-align: center;
         margin-top: 30px;
@@ -150,20 +136,20 @@
         margin-bottom: 20px;
         margin-top: 40px;
     }
-    .favorite-member-block{
+    .name_image{
         text-align: center;
     }
-    .favorite-member-block img{
+    .name_image img{
         margin-bottom: 15px;
         width: 80%;
         display: inline-block;
     }
-    .favorite-member-block .title{
-        font-size: 30px;
+    .name_image .title{
+        font-size: 25px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
-    .favorite-member-block .explain{
+    .name_image .explain{
         margin-bottom: 20px;
         text-align: center;
     }
@@ -172,18 +158,19 @@
         color: white;
         padding: 10px 20px;
         margin-bottom: 25px;
-        text-align: right !important;
+        text-align: right;
         margin-right: 5px;
     }
     
     .producer{
         text-align: right;
-        margin-top: 12px;
+        margin-top: 20px;
         margin-right: 2px;
+        font-size: 12px;
     }
     .copy{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: #f19db5;
         color: white;
         font-size: 12px;
