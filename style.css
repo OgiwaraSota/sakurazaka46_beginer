@@ -111,9 +111,9 @@
     }
     .logo img{
         display: inline-block;
-        width: 20%;
+        width: 15%;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     
     .w-inner{
@@ -124,7 +124,7 @@
         display: flex;
     }
     .header ul li{
-        width: 48px;
+        width: 78px;
         text-align: center;
         list-style: none;
         border-right: 1px solid #ddd;
@@ -146,41 +146,40 @@
     .container-favorite-member h1{
         text-align: center;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 20px;
         margin-top: 40px;
     }
-    .container-favorite-member .favorite-member-block{
+    .favorite-member-block{
         text-align: center;
     }
-    .container-favorite-member .favorite-member-block img{
-        margin-bottom: 20px;
+    .favorite-member-block img{
+        margin-bottom: 15px;
         width: 80%;
-        
+        display: inline-block;
     }
-    .container-favorite-member .favorite-member-block .title{
+    .favorite-member-block .title{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 30px;
         text-align: center;
     }
-    .container-favorite-member .favorite-member-block .explain{
+    .favorite-member-block .explain{
         margin-bottom: 20px;
         text-align: center;
     }
-    .container-favorite-member .favorite-member-block a{
+    .favorite-member-block a{
         background-color: #f19db5;
         color: white;
         padding: 10px 20px;
-    }
-    .container-favorite-member a{
+        margin-bottom: 25px;
         text-align: right;
-        margin-right: 20px;
-        margin-bottom: 30px;
+        margin-right: 5px;
     }
     
     .producer{
         text-align: right;
-        margin-top: 30px;
+        margin-top: 12px;
+        margin-right: 2px;
     }
     .copy{
         text-align: center;
