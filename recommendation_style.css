@@ -158,9 +158,9 @@
         text-align: center;
     }
     .video iframe {
-        width: 351%;
+        width: 351px;
         height: 197px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top: 20px;
     }
 
@@ -189,11 +189,12 @@
 
     .producer{
         text-align: right;
-        margin-top: 12px;
+        margin-top: 10px;
+        font-size: 12px;
     }
     .copy{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: #5eb954;
         color: white;
         font-size: 12px;
