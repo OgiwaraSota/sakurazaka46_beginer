@@ -95,13 +95,13 @@
 }
 
 @media screen and (max-width:390px){
-    .body{
+    body{
         font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
         font-size: 15px;
         border-top: 15px solid #f19db5;
     }
 
-    .a{
+    a{
         text-decoration: none;
         color: black;
     }
@@ -119,6 +119,13 @@
     .w-inner{
         width: 390px;
         margin: 0 auto;
+    }
+
+    .header ul li{
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+        padding: 2px;
     }
    
     .header-img{
@@ -147,13 +154,14 @@
     .name_image .title{
         font-size: 25px;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .name_image .explain{
         margin-bottom: 20px;
         text-align: center;
     }
     .favorite-member-block a{
+        display: block;
         background-color: #f19db5;
         color: white;
         padding: 10px 20px;
@@ -165,7 +173,7 @@
     .producer{
         text-align: right;
         margin-top: 20px;
-        margin-right: 2px;
+        padding-right: 2px;
         font-size: 12px;
     }
     .copy{
